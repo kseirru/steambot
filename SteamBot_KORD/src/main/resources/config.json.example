@@ -1,0 +1,7 @@
+{
+  "BotConfig": {
+    "discord_token": "",
+    "command_prefix": "!",
+    "steam_api_key": ""
+  }
+}

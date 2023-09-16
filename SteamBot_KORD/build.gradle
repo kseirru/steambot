@@ -1,0 +1,31 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.9.0'
+    id 'application'
+}
+
+group = 'io.github.kseirru'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "ch.qos.logback:logback-classic:1.4.7"
+    implementation "dev.kord:kord-core:0.10.0"
+    implementation "com.uchuhimo:konf:1.1.2"
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+kotlin {
+    jvmToolchain(8)
+}
+
+application {
+    mainClassName = 'MainKt'
+}
