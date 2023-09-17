@@ -1,7 +1,7 @@
 <div align="center">
 <img src="files/steam.svg" width="128" height="128" title="Steam Logo">
 
-# KNTBot
+# SteamBot
 <hr>
 Steam Bot is a bot that allows you to interact with Steam from Discord..
 
